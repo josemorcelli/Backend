@@ -1,0 +1,26 @@
+### Endpoint de teste
+GET http://localhost:3003/ping
+
+### Create user
+POST http://localhost:3003/users
+Content-Type: application/json
+
+{
+    "email": "jrp@gmail.com",
+    "password": "teste123"
+}
+
+### Get users
+GET http://localhost:3003/users
+
+### Create product
+POST http://localhost:3003/products
+Content-Type: application/json
+
+{
+    "name": "Teste Product",
+    "price": 500
+}
+
+### Get products
+GET http://localhost:3003/products
